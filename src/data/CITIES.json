@@ -1,0 +1,2992 @@
+{ "cities" : [
+ {
+   "cityId": 1,
+   "cityName": "Denver",
+   "population": "715,522",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 2,
+   "cityName": "Colorado Springs",
+   "population": "478,961",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 3,
+   "cityName": "Aurora",
+   "population": "386,261",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 4,
+   "cityName": "Fort Collins",
+   "population": "169,810",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 5,
+   "cityName": "Lakewood",
+   "population": "155,984",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 6,
+   "cityName": "Thornton",
+   "population": "141,867",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 7,
+   "cityName": "Arvada",
+   "population": "124,402",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 8,
+   "cityName": "Westminster",
+   "population": "116,317",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 9,
+   "cityName": "Pueblo",
+   "population": "111,876",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 10,
+   "cityName": "Greeley",
+   "population": "108,795",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 11,
+   "cityName": "Centennial",
+   "population": "108,418",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 12,
+   "cityName": "Boulder",
+   "population": "108,250",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 13,
+   "cityName": "Highlands Ranch",
+   "population": "103,444",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 14,
+   "cityName": "Longmont",
+   "population": "98,885",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 15,
+   "cityName": "Loveland",
+   "population": "76,378",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 16,
+   "cityName": "Broomfield",
+   "population": "74,112",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 17,
+   "cityName": "Castle Rock",
+   "population": "73,158",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 18,
+   "cityName": "Grand Junction",
+   "population": "65,560",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 19,
+   "cityName": "Commerce City",
+   "population": "62,418",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 20,
+   "cityName": "Parker",
+   "population": "58,512",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 21,
+   "cityName": "Littleton",
+   "population": "45,652",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 22,
+   "cityName": "Brighton",
+   "population": "40,083",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 23,
+   "cityName": "Security-Widefield",
+   "population": "38,639",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 24,
+   "cityName": "Northglenn",
+   "population": "38,131",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 25,
+   "cityName": "Dakota Ridge",
+   "population": "33,892",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 26,
+   "cityName": "Ken Caryl",
+   "population": "33,811",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 27,
+   "cityName": "Englewood",
+   "population": "33,659",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 28,
+   "cityName": "Pueblo West",
+   "population": "33,086",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 29,
+   "cityName": "Windsor",
+   "population": "32,716",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 30,
+   "cityName": "Wheat Ridge",
+   "population": "32,398",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 31,
+   "cityName": "Lafayette",
+   "population": "30,411",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 32,
+   "cityName": "Erie",
+   "population": "30,038",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 33,
+   "cityName": "Fountain",
+   "population": "29,802",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 34,
+   "cityName": "Columbine",
+   "population": "25,229",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 35,
+   "cityName": "Evans",
+   "population": "22,165",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 36,
+   "cityName": "Louisville",
+   "population": "21,226",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 37,
+   "cityName": "Clifton",
+   "population": "20,413",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 38,
+   "cityName": "Golden",
+   "population": "20,399",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 39,
+   "cityName": "Montrose",
+   "population": "20,291",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 40,
+   "cityName": "Cimarron Hills",
+   "population": "19,311",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 41,
+   "cityName": "Sherrelwood",
+   "population": "19,228",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 42,
+   "cityName": "Durango",
+   "population": "19,071",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 43,
+   "cityName": "Fort Carson",
+   "population": "17,693",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 44,
+   "cityName": "Johnstown",
+   "population": "17,303",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 45,
+   "cityName": "Cañon City",
+   "population": "17,141",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 46,
+   "cityName": "Firestone",
+   "population": "16,381",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 47,
+   "cityName": "Greenwood Village",
+   "population": "15,691",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 48,
+   "cityName": "Welby",
+   "population": "15,553",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 49,
+   "cityName": "Black Hawk / Gilpin",
+   "population": "15,097",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 50,
+   "cityName": "Frederick",
+   "population": "14,513",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 51,
+   "cityName": "Federal Heights",
+   "population": "14,382",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 52,
+   "cityName": "Lone Tree",
+   "population": "14,253",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 53,
+   "cityName": "Sterling",
+   "population": "13,735",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 54,
+   "cityName": "Fruita",
+   "population": "13,395",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 55,
+   "cityName": "Steamboat Springs",
+   "population": "13,224",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 56,
+   "cityName": "Superior",
+   "population": "13,094",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 57,
+   "cityName": "Berkley",
+   "population": "12,536",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 58,
+   "cityName": "Fort Morgan",
+   "population": "11,597",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 59,
+   "cityName": "Cherry Creek",
+   "population": "11,488",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 60,
+   "cityName": "The Pinery",
+   "population": "11,311",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 61,
+   "cityName": "Edwards",
+   "population": "11,246",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 62,
+   "cityName": "Wellington",
+   "population": "11,047",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 63,
+   "cityName": "Castle Pines",
+   "population": "11,036",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 64,
+   "cityName": "Rifle",
+   "population": "10,437",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 65,
+   "cityName": "Monument",
+   "population": "10,399",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 66,
+   "cityName": "Berthoud",
+   "population": "10,332",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 67,
+   "cityName": "Glenwood Springs",
+   "population": "9,963",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 68,
+   "cityName": "Alamosa",
+   "population": "9,806",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 69,
+   "cityName": "Gunbarrel",
+   "population": "9,554",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 70,
+   "cityName": "Woodmoor",
+   "population": "9,536",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 71,
+   "cityName": "Roxborough Park",
+   "population": "9,416",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 72,
+   "cityName": "Fairmount",
+   "population": "9,324",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 73,
+   "cityName": "Evergreen",
+   "population": "9,307",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 74,
+   "cityName": "Stonegate",
+   "population": "9,072",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 75,
+   "cityName": "Redlands",
+   "population": "9,061",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 76,
+   "cityName": "Craig",
+   "population": "9,060",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 77,
+   "cityName": "Delta",
+   "population": "9,035",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 78,
+   "cityName": "Cortez",
+   "population": "8,766",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 79,
+   "cityName": "Derby",
+   "population": "8,407",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 80,
+   "cityName": "Milliken",
+   "population": "8,386",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 81,
+   "cityName": "Trinidad",
+   "population": "8,329",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 82,
+   "cityName": "Fruitvale",
+   "population": "8,271",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 83,
+   "cityName": "Twin Lakes",
+   "population": "8,226",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 84,
+   "cityName": "Lochbuie",
+   "population": "8,088",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 85,
+   "cityName": "Gypsum",
+   "population": "8,040",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 86,
+   "cityName": "Fort Lupton",
+   "population": "7,955",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 87,
+   "cityName": "Woodland Park",
+   "population": "7,920",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 88,
+   "cityName": "Applewood",
+   "population": "7,833",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 89,
+   "cityName": "Lamar",
+   "population": "7,687",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 90,
+   "cityName": "Severance",
+   "population": "7,683",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 91,
+   "cityName": "Eagle",
+   "population": "7,511",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 92,
+   "cityName": "La Junta",
+   "population": "7,322",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 93,
+   "cityName": "Aspen",
+   "population": "7,004",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 94,
+   "cityName": "Orchard Mesa",
+   "population": "6,688",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 95,
+   "cityName": "Gleneagle",
+   "population": "6,649",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 96,
+   "cityName": "Air Force Academy",
+   "population": "6,608",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 97,
+   "cityName": "Gunnison",
+   "population": "6,560",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 98,
+   "cityName": "Stratmoor",
+   "population": "6,518",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 99,
+   "cityName": "Timnath",
+   "population": "6,487",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 100,
+   "cityName": "Cherry Hills Village",
+   "population": "6,442",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 101,
+   "cityName": "Carbondale",
+   "population": "6,434",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 102,
+   "cityName": "Dacono",
+   "population": "6,297",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 103,
+   "cityName": "Sheridan",
+   "population": "6,105",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 104,
+   "cityName": "Avon",
+   "population": "6,072",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 105,
+   "cityName": "Estes Park",
+   "population": "5,904",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 106,
+   "cityName": "Eaton",
+   "population": "5,802",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 107,
+   "cityName": "Salida",
+   "population": "5,666",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 108,
+   "cityName": "Dove Valley",
+   "population": "5,640",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 109,
+   "cityName": "Battlement Mesa",
+   "population": "5,438",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 110,
+   "cityName": "Brush",
+   "population": "5,339",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 111,
+   "cityName": "Shaw Heights",
+   "population": "5,185",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 112,
+   "cityName": "Breckenridge",
+   "population": "5,078",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 113,
+   "cityName": "Todd Creek",
+   "population": "5,028",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 114,
+   "cityName": "Edgewater",
+   "population": "5,005",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 115,
+   "cityName": "New Castle",
+   "population": "4,923",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 116,
+   "cityName": "Manitou Springs",
+   "population": "4,858",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 117,
+   "cityName": "Vail",
+   "population": "4,835",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 118,
+   "cityName": "Meridian",
+   "population": "4,786",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 119,
+   "cityName": "Mead",
+   "population": "4,781",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 120,
+   "cityName": "Glendale",
+   "population": "4,613",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 121,
+   "cityName": "Silverthorne",
+   "population": "4,402",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 122,
+   "cityName": "West Pleasant View and Castle Pines Village",
+   "population": "4,327",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 123,
+   "cityName": "Niwot",
+   "population": "4,306",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 124,
+   "cityName": "Monte Vista",
+   "population": "4,247",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 125,
+   "cityName": "El Jebel",
+   "population": "4,130",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 126,
+   "cityName": "Basalt",
+   "population": "3,984",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 127,
+   "cityName": "Lincoln Park",
+   "population": "3,934",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 128,
+   "cityName": "Rocky Ford",
+   "population": "3,876",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 129,
+   "cityName": "Florence",
+   "population": "3,822",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 130,
+   "cityName": "Penrose",
+   "population": "3,685",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 131,
+   "cityName": "Genesee",
+   "population": "3,610",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 132,
+   "cityName": "Silt",
+   "population": "3,536",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 133,
+   "cityName": "Yuma",
+   "population": "3,456",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 134,
+   "cityName": "Ponderosa Park",
+   "population": "3,334",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 135,
+   "cityName": "Strasburg",
+   "population": "3,307",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 136,
+   "cityName": "Burlington",
+   "population": "3,172",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 137,
+   "cityName": "Orchard City",
+   "population": "3,142",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 138,
+   "cityName": "Snowmass Village",
+   "population": "3,096",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 139,
+   "cityName": "Walsenburg",
+   "population": "3,049",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 140,
+   "cityName": "Platteville",
+   "population": "2,955",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 141,
+   "cityName": "Acres Green",
+   "population": "2,922",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 142,
+   "cityName": "Frisco",
+   "population": "2,913",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 143,
+   "cityName": "Bennett",
+   "population": "2,862",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 144,
+   "cityName": "Buena Vista",
+   "population": "2,855",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 145,
+   "cityName": "Bayfield",
+   "population": "2,838",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 146,
+   "cityName": "Holly Hills",
+   "population": "2,683",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 147,
+   "cityName": "Palmer Lake",
+   "population": "2,636",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 148,
+   "cityName": "Leadville",
+   "population": "2,633",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 149,
+   "cityName": "Telluride",
+   "population": "2,607",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 150,
+   "cityName": "Palisade",
+   "population": "2,565",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 151,
+   "cityName": "Coal Creek",
+   "population": "2,494",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 152,
+   "cityName": "Laporte",
+   "population": "2,409",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 153,
+   "cityName": "Meeker",
+   "population": "2,374",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 154,
+   "cityName": "La Salle",
+   "population": "2,359",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 155,
+   "cityName": "Wray",
+   "population": "2,358",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 156,
+   "cityName": "Holyoke",
+   "population": "2,346",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 157,
+   "cityName": "Las Animas",
+   "population": "2,300",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 158,
+   "cityName": "Rangely",
+   "population": "2,299",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 159,
+   "cityName": "Cedaredge",
+   "population": "2,279",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 160,
+   "cityName": "Colorado City",
+   "population": "2,237",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 161,
+   "cityName": "Inverness",
+   "population": "2,226",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 162,
+   "cityName": "Lyons",
+   "population": "2,209",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 163,
+   "cityName": "Granby",
+   "population": "2,079",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 164,
+   "cityName": "Limon",
+   "population": "2,043",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 165,
+   "cityName": "Olathe",
+   "population": "2,019",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 166,
+   "cityName": "Hayden",
+   "population": "1,941",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 167,
+   "cityName": "Perry Park",
+   "population": "1,932",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 168,
+   "cityName": "Center",
+   "population": "1,929",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 169,
+   "cityName": "Leadville North",
+   "population": "1,892",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 170,
+   "cityName": "Ault",
+   "population": "1,887",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 171,
+   "cityName": "Idaho Springs",
+   "population": "1,782",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 172,
+   "cityName": "Akron",
+   "population": "1,757",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 173,
+   "cityName": "Aristocrat Ranchettes",
+   "population": "1,715",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 174,
+   "cityName": "Elizabeth",
+   "population": "1,675",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 175,
+   "cityName": "Hudson",
+   "population": "1,651",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 176,
+   "cityName": "Crested Butte",
+   "population": "1,639",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 177,
+   "cityName": "Cascade-Chipita Park",
+   "population": "1,628",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 178,
+   "cityName": "Pagosa Springs",
+   "population": "1,571",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 179,
+   "cityName": "Kremmling",
+   "population": "1,509",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 180,
+   "cityName": "Columbine Valley",
+   "population": "1,502",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 181,
+   "cityName": "Aetna Estates",
+   "population": "1,496",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 182,
+   "cityName": "Kersey",
+   "population": "1,495",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 183,
+   "cityName": "Indian Hills",
+   "population": "1,474",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 184,
+   "cityName": "Nederland",
+   "population": "1,471",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 185,
+   "cityName": "Del Norte",
+   "population": "1,458",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 186,
+   "cityName": "Alamosa East",
+   "population": "1,453",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 187,
+   "cityName": "Paonia",
+   "population": "1,447",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 188,
+   "cityName": "Wiggins",
+   "population": "1,401",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 189,
+   "cityName": "Fraser",
+   "population": "1,400",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 190,
+   "cityName": "Parachute",
+   "population": "1,390",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 191,
+   "cityName": "Keystone",
+   "population": "1,369",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 192,
+   "cityName": "Springfield",
+   "population": "1,325",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 193,
+   "cityName": "Byers",
+   "population": "1,322",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 194,
+   "cityName": "Loma",
+   "population": "1,314",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 195,
+   "cityName": "Kittredge",
+   "population": "1,308",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 196,
+   "cityName": "Julesburg",
+   "population": "1,307",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 197,
+   "cityName": "Mountain Village",
+   "population": "1,264",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 198,
+   "cityName": "Fowler",
+   "population": "1,253",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 199,
+   "cityName": "Keenesburg",
+   "population": "1,250",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 200,
+   "cityName": "Ellicott",
+   "population": "1,248",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 201,
+   "cityName": "Mancos",
+   "population": "1,196",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 202,
+   "cityName": "Ridgway",
+   "population": "1,183",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 203,
+   "cityName": "Dotsero",
+   "population": "1,172",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 204,
+   "cityName": "Cripple Creek",
+   "population": "1,155",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 205,
+   "cityName": "Towaoc",
+   "population": "1,120",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 206,
+   "cityName": "Georgetown",
+   "population": "1,118",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 207,
+   "cityName": "Pierce",
+   "population": "1,097",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 208,
+   "cityName": "Deer Trail",
+   "population": "1,068",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 209,
+   "cityName": "Ordway",
+   "population": "1,066",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 210,
+   "cityName": "Dillon",
+   "population": "1,064",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 211,
+   "cityName": "Floyd Hill",
+   "population": "1,048",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 212,
+   "cityName": "Minturn and Winter Park",
+   "population": "1,033",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 213,
+   "cityName": "Gilcrest",
+   "population": "1,029",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 214,
+   "cityName": "Upper Bear Creek",
+   "population": "984",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 215,
+   "cityName": "Haxtun",
+   "population": "981",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 216,
+   "cityName": "Pine Brook Hill and Paragon Estates",
+   "population": "975",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 217,
+   "cityName": "Lazy Acres",
+   "population": "957",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 218,
+   "cityName": "Manassa",
+   "population": "947",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 219,
+   "cityName": "Mount Crested Butte",
+   "population": "941",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 220,
+   "cityName": "Poncha Springs",
+   "population": "925",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 221,
+   "cityName": "Log Lane Village",
+   "population": "913",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 222,
+   "cityName": "Ouray",
+   "population": "898",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 223,
+   "cityName": "Oak Creek",
+   "population": "889",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 224,
+   "cityName": "Dolores",
+   "population": "885",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 225,
+   "cityName": "Sanford",
+   "population": "879",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 226,
+   "cityName": "Blue River",
+   "population": "877",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 227,
+   "cityName": "Hotchkiss",
+   "population": "875",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 228,
+   "cityName": "La Veta",
+   "population": "862",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 229,
+   "cityName": "Bow Mar",
+   "population": "853",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 230,
+   "cityName": "Ignacio and Howard",
+   "population": "852",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 231,
+   "cityName": "Holly",
+   "population": "837",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 232,
+   "cityName": "Aspen Park",
+   "population": "810",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 233,
+   "cityName": "Blende",
+   "population": "788",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 234,
+   "cityName": "Hugo",
+   "population": "787",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 235,
+   "cityName": "Central City",
+   "population": "779",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 236,
+   "cityName": "Calhan",
+   "population": "762",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 237,
+   "cityName": "Cheyenne Wells",
+   "population": "758",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 238,
+   "cityName": "Foxfield",
+   "population": "754",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 239,
+   "cityName": "North Washington",
+   "population": "733",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 240,
+   "cityName": "Williamsburg",
+   "population": "731",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 241,
+   "cityName": "La Jara",
+   "population": "730",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 242,
+   "cityName": "Kiowa",
+   "population": "725",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 243,
+   "cityName": "Fairplay",
+   "population": "724",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 244,
+   "cityName": "Grand View Estates",
+   "population": "689",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 245,
+   "cityName": "Hot Sulphur Springs",
+   "population": "687",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 246,
+   "cityName": "Watkins",
+   "population": "682",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 247,
+   "cityName": "Eads",
+   "population": "672",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 248,
+   "cityName": "Cattle Creek",
+   "population": "662",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 249,
+   "cityName": "Stratton",
+   "population": "656",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 250,
+   "cityName": "Copper Mountain",
+   "population": "650",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 251,
+   "cityName": "Antonito",
+   "population": "647",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 252,
+   "cityName": "Green Mountain Falls",
+   "population": "646",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 253,
+   "cityName": "Dove Creek",
+   "population": "635",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 254,
+   "cityName": "Silverton",
+   "population": "622",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 255,
+   "cityName": "Loghill Village",
+   "population": "617",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 256,
+   "cityName": "Silver Cliff",
+   "population": "609",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 257,
+   "cityName": "Walden",
+   "population": "606",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 258,
+   "cityName": "Swink",
+   "population": "604",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 259,
+   "cityName": "Simla",
+   "population": "601",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 260,
+   "cityName": "San Luis",
+   "population": "598",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 261,
+   "cityName": "Avondale",
+   "population": "594",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 262,
+   "cityName": "Nucla",
+   "population": "585",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 263,
+   "cityName": "Allenspark",
+   "population": "568",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 264,
+   "cityName": "Flagler",
+   "population": "567",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 265,
+   "cityName": "Eldorado Springs",
+   "population": "559",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 266,
+   "cityName": "Walsh",
+   "population": "543",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 267,
+   "cityName": "Mountain View",
+   "population": "541",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 268,
+   "cityName": "Saguache",
+   "population": "539",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 269,
+   "cityName": "Norwood",
+   "population": "535",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 270,
+   "cityName": "Downieville-Lawson-Dumont",
+   "population": "527",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 271,
+   "cityName": "Beulah Valley",
+   "population": "518",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 272,
+   "cityName": "Altona",
+   "population": "512",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 273,
+   "cityName": "Otis and Rockvale",
+   "population": "511",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 274,
+   "cityName": "South Fork",
+   "population": "510",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 275,
+   "cityName": "Salt Creek",
+   "population": "507",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 276,
+   "cityName": "Nunn",
+   "population": "504",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 277,
+   "cityName": "De Beque",
+   "population": "493",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 278,
+   "cityName": "Naturita",
+   "population": "485",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 279,
+   "cityName": "North La Junta",
+   "population": "482",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 280,
+   "cityName": "Fort Garland",
+   "population": "464",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 281,
+   "cityName": "Aguilar",
+   "population": "456",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 282,
+   "cityName": "Granada",
+   "population": "445",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 283,
+   "cityName": "Comanche Creek",
+   "population": "442",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 284,
+   "cityName": "Wiley",
+   "population": "437",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 285,
+   "cityName": "Westcliffe",
+   "population": "435",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 286,
+   "cityName": "Lake City",
+   "population": "432",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 287,
+   "cityName": "Fleming",
+   "population": "428",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 288,
+   "cityName": "Red Feather Lakes",
+   "population": "426",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 289,
+   "cityName": "Grand Lake",
+   "population": "410",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 290,
+   "cityName": "Franktown",
+   "population": "409",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 291,
+   "cityName": "Crawford",
+   "population": "403",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 292,
+   "cityName": "Tabernash",
+   "population": "401",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 293,
+   "cityName": "Yampa",
+   "population": "399",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 294,
+   "cityName": "Morrison",
+   "population": "396",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 295,
+   "cityName": "Victor",
+   "population": "379",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 296,
+   "cityName": "Collbran",
+   "population": "369",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 297,
+   "cityName": "Coal Creek town",
+   "population": "364",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 298,
+   "cityName": "Empire",
+   "population": "345",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 299,
+   "cityName": "Coaldale",
+   "population": "343",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 300,
+   "cityName": "Manzanola",
+   "population": "341",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 301,
+   "cityName": "East Pleasant View and St. Mary's",
+   "population": "333",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 302,
+   "cityName": "Chacra",
+   "population": "331",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 303,
+   "cityName": "St. Ann Highlands",
+   "population": "325",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 304,
+   "cityName": "Blanca",
+   "population": "322",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 305,
+   "cityName": "Olney Springs",
+   "population": "315",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 306,
+   "cityName": "Hillrose",
+   "population": "312",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 307,
+   "cityName": "Arboles",
+   "population": "308",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 308,
+   "cityName": "Boone",
+   "population": "305",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 309,
+   "cityName": "Romeo",
+   "population": "302",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 310,
+   "cityName": "Larkspur",
+   "population": "301",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 311,
+   "cityName": "Johnson Village",
+   "population": "299",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 312,
+   "cityName": "Morgan Heights",
+   "population": "298",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 313,
+   "cityName": "Alma",
+   "population": "296",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 314,
+   "cityName": "Louviers",
+   "population": "293",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 315,
+   "cityName": "Woody Creek",
+   "population": "290",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 316,
+   "cityName": "Rico",
+   "population": "288",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 317,
+   "cityName": "Merino",
+   "population": "281",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 318,
+   "cityName": "Sugarloaf",
+   "population": "274",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 319,
+   "cityName": "Ovid",
+   "population": "271",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 320,
+   "cityName": "Vineland",
+   "population": "269",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 321,
+   "cityName": "Gerrard",
+   "population": "264",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 322,
+   "cityName": "Mulford and Sugar City",
+   "population": "259",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 323,
+   "cityName": "Red Cliff, Lewis, and City of Creede",
+   "population": "257",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 324,
+   "cityName": "Jamestown",
+   "population": "256",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 325,
+   "cityName": "Kit Carson",
+   "population": "255",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 326,
+   "cityName": "Garden City",
+   "population": "254",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 327,
+   "cityName": "Iliff",
+   "population": "246",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 328,
+   "cityName": "Idledale",
+   "population": "244",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 329,
+   "cityName": "Dinosaur",
+   "population": "243",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 330,
+   "cityName": "Mountain Meadows and Cheraw",
+   "population": "237",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 331,
+   "cityName": "Brookside",
+   "population": "236",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 332,
+   "cityName": "Catherine",
+   "population": "235",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 333,
+   "cityName": "Phippsburg",
+   "population": "234",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 334,
+   "cityName": "Eckley",
+   "population": "232",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 335,
+   "cityName": "Gold Hill",
+   "population": "218",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 336,
+   "cityName": "El Moro",
+   "population": "216",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 337,
+   "cityName": "Peyton",
+   "population": "214",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 338,
+   "cityName": "Peetz",
+   "population": "213",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 339,
+   "cityName": "Silver Plume",
+   "population": "207",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 340,
+   "cityName": "Rye and Larkspur",
+   "population": "206",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 341,
+   "cityName": "Twin Lakes CDP",
+   "population": "204",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 342,
+   "cityName": "Bark Ranch and Arriba",
+   "population": "202",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 343,
+   "cityName": "Sunshine",
+   "population": "198",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 344,
+   "cityName": "Ophir",
+   "population": "197",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 345,
+   "cityName": "Rollinsville",
+   "population": "194",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 346,
+   "cityName": "Elbert",
+   "population": "188",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 347,
+   "cityName": "Tall Timber",
+   "population": "185",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 348,
+   "cityName": "Bethune",
+   "population": "183",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 349,
+   "cityName": "Hasty and Midland",
+   "population": "182",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 350,
+   "cityName": "Crisman",
+   "population": "179",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 351,
+   "cityName": "Sedalia",
+   "population": "177",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 352,
+   "cityName": "Maysville",
+   "population": "173",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 353,
+   "cityName": "Seibert, Sedgwick, and Redvale",
+   "population": "172",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 354,
+   "cityName": "Alpine",
+   "population": "169",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 355,
+   "cityName": "Crowley",
+   "population": "166",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 356,
+   "cityName": "Southern Ute",
+   "population": "158",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 357,
+   "cityName": "Trail Side and Grover",
+   "population": "157",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 358,
+   "cityName": "Genoa and Peoria",
+   "population": "153",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 359,
+   "cityName": "Divide",
+   "population": "143",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 360,
+   "cityName": "Crestone",
+   "population": "141",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 361,
+   "cityName": "Eldora",
+   "population": "140",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 362,
+   "cityName": "Atwood",
+   "population": "138",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 363,
+   "cityName": "Snyder and Portland",
+   "population": "136",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 364,
+   "cityName": "Capulin",
+   "population": "134",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 365,
+   "cityName": "Marble and Crook",
+   "population": "133",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 366,
+   "cityName": "Jackson Lake",
+   "population": "131",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 367,
+   "cityName": "Seven Hills",
+   "population": "129",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 368,
+   "cityName": "Florissant and Ward",
+   "population": "128",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 369,
+   "cityName": "Redstone",
+   "population": "127",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 370,
+   "cityName": "Cokedale",
+   "population": "127",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 371,
+   "cityName": "La Junta Gardens",
+   "population": "123",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 372,
+   "cityName": "Westcreek",
+   "population": "120",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 373,
+   "cityName": "No Name",
+   "population": "117",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 374,
+   "cityName": "Weldona",
+   "population": "113",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 375,
+   "cityName": "Pritchett",
+   "population": "112",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 376,
+   "cityName": "Ramah and Guffey",
+   "population": "111",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 377,
+   "cityName": "Raymer (New Raymer)",
+   "population": "110",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 378,
+   "cityName": "Moffat",
+   "population": "108",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 379,
+   "cityName": "Brick Center",
+   "population": "105",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 380,
+   "cityName": "Campo",
+   "population": "103",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 381,
+   "cityName": "Jansen",
+   "population": "101",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 382,
+   "cityName": "Segundo",
+   "population": "100",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 383,
+   "cityName": "Vilas",
+   "population": "98",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 384,
+   "cityName": "Idalia",
+   "population": "97",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 385,
+   "cityName": "Vona",
+   "population": "95",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 386,
+   "cityName": "Smeltertown",
+   "population": "88",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 387,
+   "cityName": "Joes",
+   "population": "82",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 388,
+   "cityName": "Hooper",
+   "population": "81",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 389,
+   "cityName": "Hoehne",
+   "population": "80",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 390,
+   "cityName": "Maybell and Orchard",
+   "population": "76",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 391,
+   "cityName": "Padroni",
+   "population": "75",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 392,
+   "cityName": "Montezuma and Heeney",
+   "population": "74",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 393,
+   "cityName": "Pitkin",
+   "population": "72",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 394,
+   "cityName": "Haswell",
+   "population": "71",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 395,
+   "cityName": "Rock Creek Park",
+   "population": "68",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 396,
+   "cityName": "Stonewall Gap and Saddle Ridge",
+   "population": "66",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 397,
+   "cityName": "Blue Sky",
+   "population": "65",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 398,
+   "cityName": "Valmont and Glendale CDP",
+   "population": "64",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 399,
+   "cityName": "Kim and Goldfield",
+   "population": "63",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 400,
+   "cityName": "Starkville",
+   "population": "62",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 401,
+   "cityName": "Kirk",
+   "population": "61",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 402,
+   "cityName": "Branson",
+   "population": "57",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 403,
+   "cityName": "Hartman and San Acacio",
+   "population": "56",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 404,
+   "cityName": "Sheridan Lake",
+   "population": "55",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 405,
+   "cityName": "Weston",
+   "population": "53",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 406,
+   "cityName": "Paoli",
+   "population": "51",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 407,
+   "cityName": "Amherst",
+   "population": "47",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 408,
+   "cityName": "Laird, Conejos, and Valdez",
+   "population": "46",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 409,
+   "cityName": "Cotopaxi",
+   "population": "44",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 410,
+   "cityName": "Parshall",
+   "population": "42",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 411,
+   "cityName": "Leyner",
+   "population": "40",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 412,
+   "cityName": "Vernon and Sawpit",
+   "population": "38",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 413,
+   "cityName": "Colona",
+   "population": "36",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 414,
+   "cityName": "Two Buttes",
+   "population": "34",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 415,
+   "cityName": "Piedra",
+   "population": "31",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 416,
+   "cityName": "McCoy",
+   "population": "30",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 417,
+   "cityName": "Garfield",
+   "population": "27",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 418,
+   "cityName": "Hidden Lake",
+   "population": "24",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 419,
+   "cityName": "Brandon",
+   "population": "21",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 420,
+   "cityName": "Wolcott",
+   "population": "20",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 421,
+   "cityName": "Towner",
+   "population": "18",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 422,
+   "cityName": "Bonanza",
+   "population": "17",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 423,
+   "cityName": "Lakeside",
+   "population": "16",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 424,
+   "cityName": "Cathedral",
+   "population": "15",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 425,
+   "cityName": "Lynn",
+   "population": "11",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 426,
+   "cityName": "Norrie",
+   "population": "7",
+   "stateCode": "CO",
+   "country": "USA"
+ },
+ {
+   "cityId": 427,
+   "cityName": "Almont",
+   "population": "2",
+   "stateCode": "CO",
+   "country": "USA"
+ }
+]
+}

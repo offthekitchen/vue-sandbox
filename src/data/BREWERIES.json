@@ -1,0 +1,109 @@
+{
+  "breweries": [
+    {
+      "brewery": "The Colorado Farm Brewery",
+      "cityName": "Alamosa",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Ouray Brewery",
+      "cityName": "Ouray",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Goat Patch Brewing",
+      "cityName": "Colorado Springs",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Marshall Brewing Company",
+      "cityName": "Tulsa",
+      "stateCode": "OK"
+    },
+    {
+      "brewery": "Boese Brothers Brewing",
+      "cityName": "Albuquerque",
+      "stateCode": "NM"
+    },
+    {
+      "brewery": "Vicious Cycle Brewing",
+      "cityName": "Fraser",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Gruner Brothers Brewing",
+      "cityName": "Casper",
+      "stateCode": "WY"
+    },
+    {
+      "brewery": "Cabin Creek Brewing",
+      "cityName": "Georgetown",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Burly Brewing Co.",
+      "cityName": "Castle Rock",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Third Place Brewing",
+      "cityName": "Wichita",
+      "stateCode": "KS"
+    },
+    {
+      "brewery": "Comanche Creek Brewing Company",
+      "cityName": "Eagle Nest",
+      "stateCode": "NM"
+    },
+    {
+      "brewery": "Mother Tucker Brewery",
+      "cityName": "Thornton",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "T Road Brewing Company",
+      "cityName": "Crestone",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "300 Suns Brewing",
+      "cityName": "Longmont",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Mother Tucker Brewery",
+      "cityName": "Louisville",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "LUKI Brewing",
+      "cityName": "Arvada",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "WildEdge Brewing Collective",
+      "cityName": "Cortez",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Crafty Canary Brewery",
+      "cityName": "Walsenburg",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Rule105 Brewing",
+      "cityName": "Greeley",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Mountain Merman Brewing Co.",
+      "cityName": "La Veta",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Tumbleweed Brewing and Wine Co.",
+      "cityName": "Yuma",
+      "stateCode": "CO"
+    }
+  ]
+}
