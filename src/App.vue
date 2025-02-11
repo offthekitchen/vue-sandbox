@@ -3,21 +3,6 @@ import { RouterLink, RouterView } from "vue-router";
 import AppFooter from "./components/Footer.vue";
 
 </script>
-<script lang="ts">
-export default {
-  data() {
-    return {
-      showStats: false,
-      btnText: "Stats",
-    }
-  },
-  methods: {
-    toggleStats: function (bshow: boolean) {
-      this.showStats = !bshow;
-    },
-  },
-}
-</script>
 <template>
   <div class="page-wrapper">
     <header>

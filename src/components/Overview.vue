@@ -9,9 +9,20 @@
     <p>
         This web app merely tracks the cities and specific breweries in which I have performed 
         as a musician for my <a href="http://www.coloradosessions.com/" target="_blank">Colorado Sessions</a> project. It is written
-        in Typescript utilizing Interfaces and classes.  As I develop it, I will incorporate examples of the following VueJS concepts:
+        in Typescript utilizing Interfaces and classes.  It currently employs the following concepts:
         <ul>
             <li>Composition API & Composables</li>
+            <li>Typescript</li>
+            <li>Interfaces for data typing</li>
+            <li>Vue Router</li>
+            <li>Scoped Styles</li>
+            <li>Parent child Component Architecture</li>
+        </ul>
+    </p>
+    <p>
+      As I develop it, I will incorporate the additional VueJS concepts:
+      <ul>
+
             <li>Connectivity to an external MySQL database via Axios</li>
             <li>Vue Router</li>
             <li>VueX Store</li>
@@ -19,7 +30,7 @@
             <li>Scoped slots</li>
             <li>Component Architecture</li>
         </ul>
-    </p>
+    </p>  
   </div>
 </template>
 <style>

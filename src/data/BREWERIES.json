@@ -1,6 +1,26 @@
 {
   "breweries": [
     {
+      "brewery": "Laughing Sun Brewing",
+      "cityName": "Bismarck",
+      "stateCode": "ND"
+    },
+    {
+      "brewery": "Gold Camp Brewing",
+      "cityName": "Colorado Springs",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Two Mile Brewing Company",
+      "cityName": "Leadville",
+      "stateCode": "CO"
+    },
+    {
+      "brewery": "Tommyknocker Brewing",
+      "cityName": "Idaho Springs",
+      "stateCode": "CO"
+    },
+    {
       "brewery": "The Colorado Farm Brewery",
       "cityName": "Alamosa",
       "stateCode": "CO"
