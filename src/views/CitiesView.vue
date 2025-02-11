@@ -44,7 +44,7 @@ onMounted(() => {
   </main>
 </template>
 
-<style>
+<style scoped>
 .cities-section {
   width: 650px;
   display: flex;
@@ -70,6 +70,17 @@ onMounted(() => {
 }
 
 h2 {
-  margin-bottom: 4px;;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .cities-section{
+    flex-direction: column-reverse;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
 }
 </style>

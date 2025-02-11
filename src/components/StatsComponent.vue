@@ -37,4 +37,10 @@ const props = defineProps<Props>()
   width: 200px;
   font-weight: 700;
 }
+@media screen and (max-width: 768px) {
+  .stats-table {
+    height: fit-content;
+  }
+
+}
 </style>

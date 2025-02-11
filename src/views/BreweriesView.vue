@@ -36,7 +36,7 @@ onMounted(() => {
           class="brewery-list-row"
           :class="{ 'alt-row': index % 2 === 0 }"
         >
-          <div class="city-name">{{ brewery.brewery }}</div>
+          <div class="brewery-name">{{ brewery.brewery }}</div>
           <div class="city-name">{{ brewery.cityName }}</div>
           <div class="city-state">{{ brewery.stateCode }}</div>
         </div>
@@ -50,7 +50,7 @@ onMounted(() => {
   </main>
 </template>
 
-<style>
+<style scoped>
 .breweries-section {
   display: flex;
 }
@@ -66,10 +66,33 @@ onMounted(() => {
 }
 
 .city-name {
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .brewery-name {
-  min-width: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .breweries-section{
+    flex-direction: column-reverse;
+  }
+
+  .breweries-list {
+    width: fit-content;
+  }
+  .city-name {
+    min-width: 150px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .brewery-name {
+    width: 150px;
+  }
 }
 </style>
