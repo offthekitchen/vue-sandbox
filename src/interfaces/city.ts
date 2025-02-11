@@ -1,8 +1,7 @@
-interface ICity {
+export interface ICity {
+    cityId: number
     cityName: string
     stateCode: string
-}
-
-export interface ICityList {
-    [index:number]:ICity
+    population: string
+    country: string
 }

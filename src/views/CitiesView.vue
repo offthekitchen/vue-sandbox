@@ -1,50 +1,29 @@
-<script lang="ts">
-import jsonCities from "../data/CITIES.json";
-import jsonPerformances from "../data/PERFORMANCES.json";
-import cities from "../store/modules/cities";
+<script setup lang="ts">
+import { onMounted, ref } from 'vue';
+import { useCities } from "../composables/cities";
+import StatsComponent from "../components/StatsComponent.vue"
+import type { IStatistic } from "../interfaces/statistic";
 
-export default {
-  data() {
-    return {
-      cities: jsonCities.cities,
-      performanceCities: jsonPerformances.performanceCities,
-      btnText: "Colorado Only",
-      showColorado: false,
-      altRow: false,
-    };
-  },
-  mounted() {},
-  computed: {
-    performedCities() {
-      return this.cities.filter((item) =>
-        this.performanceCities.map((x) => x.cityId).includes(item.cityId)
-      );
-    },
-  },
-  methods: {
-    alternateClass: function () {
-      this.altRow = !this.altRow;
-      return this.altRow;
-    },
-    computedClasses(city: any, index: number) {
-      return {
-        "colorado-record": city.stateCode === "CO",
-        "alt-row": index % 2 === 0,
-      };
-    },
-    performedCity(cityId: number) {
-      if (this.performanceCities.find((record) => record.cityId === cityId))
-        return true;
+const { performanceCities, getStats } = useCities()
 
-      return false;
-    },
-  },
-};
+const showStats = ref(false);
+var btnText: string = 'Show Stats'
+var cityStats: IStatistic[] = []
+
+function toggleStats() {
+    showStats.value = !showStats.value
+    btnText = (btnText == 'Hide Stats' ? 'Show Stats' : 'Hide Stats')
+}
+
+onMounted(() => {
+  cityStats = getStats()
+})  
 </script>
 
 <template>
   <main>
     <h2>Below is a list of the Colorado cities in which I've performed.</h2>
+    <button @click="toggleStats()" class="primary-button">{{ btnText }}</button>
     <section class="cities-section">
       <div class="cities-list">
         <header class="city-list-header">
@@ -52,14 +31,15 @@ export default {
           <h3 class="city-state">State</h3>
         </header>
         <div
-          v-for="(city, index) in performedCities"
+          v-for="(city, index) in performanceCities"
           class="city-list-row"
-          :class="computedClasses(city, index)"
+          :class="{ 'alt-row': index % 2 === 0 }"
         >
           <div class="city-name">{{ city.cityName }}</div>
           <div class="city-state">{{ city.stateCode }}</div>
         </div>
       </div>
+      <StatsComponent v-show="showStats" title="Colorado Stats" :stats="cityStats" />
     </section>
   </main>
 </template>
@@ -67,6 +47,7 @@ export default {
 <style>
 .cities-section {
   width: 650px;
+  display: flex;
 }
 .cities-list {
   width: fit-content;

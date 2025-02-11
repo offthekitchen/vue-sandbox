@@ -1,15 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import type { IStatistic } from "../interfaces/statistic"
+
+interface Props {
+  title: String,
+  stats: IStatistic[]
+}
+
+const props = defineProps<Props>()
+
+</script>
 
 <template>
   <div class="stats-table">
-    <h1>COLORADO STATS</h1>
-    <div class="stats-row">
-      <div class="stats-row-header">CO Cities perform in</div>
-      <div class="stat">83</div>
-    </div>
-    <div class="stats-row">
-      <div class="stats-row-header">% CO Cities perform in</div>
-      <div class="stat">19.43%</div>
+    <h1>{{ props.title }}</h1>
+    <div v-for="stat in props.stats" class="stats-row">
+      <div class="stats-row-header">{{ stat.stat }}</div>
+      <div class="stat">{{ stat.statValue }}</div>
     </div>
   </div>
 </template>

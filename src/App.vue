@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import AppFooter from "./components/Footer.vue";
-import StatsComponent from "./components/StatsComponent.vue";
+
 </script>
 <script lang="ts">
 export default {
@@ -39,16 +39,15 @@ export default {
         </nav>
       </div>
     </header>
-    <button @click="toggleStats(showStats)" class="primary-button">{{ btnText }}</button>
     <div class="main-section">
       <RouterView />
-      <StatsComponent v-if="showStats" />
-  </div>
+    </div>
+
   </div>
   <AppFooter />
 </template>
 
-<style scoped>
+<style>
 .page-wrapper {
   min-height: 800px;
   max-width: 1200px;

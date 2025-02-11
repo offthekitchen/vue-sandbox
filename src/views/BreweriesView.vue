@@ -1,41 +1,59 @@
-<script  lang="ts">
-import jsonBreweries from "../data/BREWERIES.json";
+<script setup lang="ts">
+import { onMounted, ref } from "vue"
+import { useBreweries } from "../composables/breweries"
+import StatsComponent from "../components/StatsComponent.vue"
+import type { IStatistic } from "../interfaces/statistic"
 
-export default {
-  data() {
-    return {
-      breweries: jsonBreweries.breweries,
-    };
-  },
-  methods: {
+const { breweries, getStats } = useBreweries()
 
-  },
-};
+const showStats = ref(false)
+var btnText: string = "Show Stats"
+var breweryStats: IStatistic[] = []
+
+function toggleStats() {
+  showStats.value = !showStats.value
+  btnText = btnText == "Hide Stats" ? "Show Stats" : "Hide Stats"
+}
+
+onMounted(() => {
+  breweryStats = getStats()
+})
 </script>
 
 <template>
   <main>
     <h2>Below is a list of the breweries in which I've performed.</h2>
-    <section class="breweries-list">
-      <header class="brewery-list-header">
-        <h3 class="brewery-name">Brewery</h3>
-        <h3 class="city-name">City</h3>
-        <h3 class="city-state">State</h3>
-      </header>
-      <div
-        v-for="(brewery, index) in breweries"
-        class="brewery-list-row"
-        :class="{ 'alt-row': index % 2 === 0 }"
-      >
-      <div class="city-name">{{ brewery.brewery }}</div>
-        <div class="city-name">{{ brewery.cityName }}</div>
-        <div class="city-state">{{ brewery.stateCode }}</div>
+    <button @click="toggleStats()" class="primary-button">{{ btnText }}</button>
+    <section class="breweries-section">
+      <div class="breweries-list">
+        <header class="brewery-list-header">
+          <h3 class="brewery-name">Brewery</h3>
+          <h3 class="city-name">City</h3>
+          <h3 class="city-state">State</h3>
+        </header>
+        <div
+          v-for="(brewery, index) in breweries"
+          class="brewery-list-row"
+          :class="{ 'alt-row': index % 2 === 0 }"
+        >
+          <div class="city-name">{{ brewery.brewery }}</div>
+          <div class="city-name">{{ brewery.cityName }}</div>
+          <div class="city-state">{{ brewery.stateCode }}</div>
+        </div>
       </div>
+      <StatsComponent
+        v-show="showStats"
+        title="Brewery Stats"
+        :stats="breweryStats"
+      />
     </section>
   </main>
 </template>
 
 <style>
+.breweries-section {
+  display: flex;
+}
 .breweries-list {
   width: 650px;
 }
@@ -44,7 +62,7 @@ export default {
 .brewery-list-row {
   display: flex;
   min-height: 16px;
-  border: 1px solid #e2e2e2;
+  border: 1px solid #e2e2e2
 }
 
 .city-name {
@@ -55,4 +73,3 @@ export default {
   min-width: 300px;
 }
 </style>
-
