@@ -1,12 +1,19 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue"
+import { storeToRefs } from "pinia" 
 import { useBreweries } from "../composables/breweries"
 import StatsComponent from "../components/StatsComponent.vue"
 import type { IStatistic } from "../interfaces/statistic"
+import { useBreweriesStore } from '../stores/breweries'
 
 const { breweries, getStats } = useBreweries()
+const store = useBreweriesStore()
 
 const showStats = ref(false)
+
+const { name, upcoming } = storeToRefs(store)
+const { increment } = store
+
 var btnText: string = "Show Stats"
 var breweryStats: IStatistic[] = []
 
@@ -22,6 +29,7 @@ onMounted(() => {
 
 <template>
   <main>
+  <h1>{{ name }}</h1>
     <h2>Below is a list of the breweries in which I've performed.</h2>
     <button @click="toggleStats()" class="primary-button">{{ btnText }}</button>
     <section class="breweries-section">

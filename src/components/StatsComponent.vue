@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import type { IStatistic } from "../interfaces/statistic"
+import { useBreweriesStore } from '../stores/breweries'
+import { storeToRefs } from "pinia" 
+
+const store = useBreweriesStore()
 
 interface Props {
   title: String,
@@ -7,6 +11,8 @@ interface Props {
 }
 
 const props = defineProps<Props>()
+
+const { name, upcoming } = storeToRefs(store)
 
 </script>
 
@@ -16,6 +22,10 @@ const props = defineProps<Props>()
     <div v-for="stat in props.stats" class="stats-row">
       <div class="stats-row-header">{{ stat.stat }}</div>
       <div class="stat">{{ stat.statValue }}</div>
+    </div>
+    <div class="stats-row">
+      <div class="stats-row-header">Upcoming shows</div>
+      <div class="stat">{{ upcoming }}</div>
     </div>
   </div>
 </template>
