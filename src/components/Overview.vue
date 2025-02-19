@@ -30,11 +30,26 @@
             <li>Scoped slots</li>
             <li>Component Architecture</li>
         </ul>
-    </p>  
+    </p>
+    <p>You can click the       
+      <img
+          alt="Info icon"
+          title="Info icon"
+          class="icon"
+          src="@/assets/info-icon.svg"
+          width="20"
+          height="20"
+        /> icon to get a little behind the scenes info of how each element was implemented.</p>  
   </div>
 </template>
-<style>
+<style scoped>
 .overview {
   max-width: 650px;
 }
+
+.icon {
+  margin-bottom: -5px
+  ;
+}
+
 </style>

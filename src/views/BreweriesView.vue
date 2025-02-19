@@ -5,6 +5,7 @@ import { useBreweries } from "../composables/breweries"
 import StatsComponent from "../components/StatsComponent.vue"
 import type { IStatistic } from "../interfaces/statistic"
 import { useBreweriesStore } from '../stores/breweries'
+import InfoPopup from "../components/InfoPopup.vue";
 
 const { breweries, getStats } = useBreweries()
 const store = useBreweriesStore()
@@ -12,14 +13,21 @@ const store = useBreweriesStore()
 const showStats = ref(false)
 
 const { name, upcoming } = storeToRefs(store)
-const { increment } = store
+
+const showBreweriesInfo = ref(false)
 
 var btnText: string = "Show Stats"
 var breweryStats: IStatistic[] = []
+var breweriesInfoHtml: string =
+  "The list of Colorado breweries is retrieved from a Pinia store. A composable is used to calculate the brewery statistics.";
 
 function toggleStats() {
   showStats.value = !showStats.value
   btnText = btnText == "Hide Stats" ? "Show Stats" : "Hide Stats"
+}
+
+function toggleInfo(infoContext: string) {
+  showBreweriesInfo.value = !showBreweriesInfo.value
 }
 
 onMounted(() => {
@@ -29,7 +37,21 @@ onMounted(() => {
 
 <template>
   <main>
-  <h1>{{ name }}</h1>
+    <div class="section-header">
+      <h1>{{ name }}</h1>
+      <img
+          alt="Info icon"
+          title="Info icon"
+          class="logo"
+          src="@/assets/info-icon.svg"
+          width="20"
+          height="20"
+          v-on:click="toggleInfo('breweries')"
+        />
+        <InfoPopup v-show="showBreweriesInfo" @close="toggleInfo('breweries')" title="Breweries Info"
+          ><span v-html="breweriesInfoHtml"></span>
+        </InfoPopup>
+    </div>
     <h2>Below is a list of the breweries in which I've performed.</h2>
     <button @click="toggleStats()" class="primary-button">{{ btnText }}</button>
     <section class="breweries-section">

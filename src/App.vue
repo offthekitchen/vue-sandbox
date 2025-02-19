@@ -1,7 +1,28 @@
 <script setup lang="ts">
+import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 import AppFooter from "./components/Footer.vue";
+import InfoPopup from "./components/InfoPopup.vue";
 
+var appInfoHtml: string =
+  "This Vue application is written in TypeScript using the composition API and composables. It incorporates the following:";
+appInfoHtml += "<ul><li>Vue Router</li><li>Pinia Store</li><li>Slots</li></ul>";
+var navInfoHtml: string =
+  "The navigation uses the Vue Router to change out the content fo each area.";
+
+const showAppInfo = ref(false);
+const showNavInfo = ref(false);
+
+function toggleInfo(infoContext: string) {
+  switch (infoContext) {
+    case "app":
+      showAppInfo.value = !showAppInfo.value;
+      break;
+    case "nav":
+      showNavInfo.value = !showNavInfo.value;
+      break;
+  }
+}
 </script>
 <template>
   <div class="page-wrapper">
@@ -15,6 +36,21 @@ import AppFooter from "./components/Footer.vue";
           height="125"
         />
         <div class="title">VUE Development Sandbox</div>
+        <img
+          alt="Info Icon"
+          title="Info Icon"
+          class="icon"
+          src="@/assets/info-icon.svg"
+          width="20"
+          height="20"
+          v-on:click="toggleInfo('app')"
+        />
+        <InfoPopup
+          v-show="showAppInfo"
+          @close="toggleInfo('app')"
+          title="Application Info"
+          ><span v-html="appInfoHtml"></span>
+        </InfoPopup>
       </div>
       <div class="navigation">
         <nav>
@@ -22,12 +58,26 @@ import AppFooter from "./components/Footer.vue";
           <RouterLink to="/cities">CITIES</RouterLink>
           <RouterLink to="/breweries">BREWERIES</RouterLink>
         </nav>
+        <img
+          alt="Info Icon"
+          title="Info Icon"
+          class="icon"
+          src="@/assets/info-icon.svg"
+          width="20"
+          height="20"
+          v-on:click="toggleInfo('nav')"
+        />
+        <InfoPopup
+          v-show="showNavInfo"
+          @close="toggleInfo('nav')"
+          title="Navigation Info"
+          ><span v-html="navInfoHtml"></span>
+        </InfoPopup>
       </div>
     </header>
     <div class="main-section">
       <RouterView />
     </div>
-
   </div>
   <AppFooter />
 </template>
@@ -51,11 +101,14 @@ header {
   font-size: 36px;
 }
 
+.navigation {
+  display: flex;
+  margin-top: 16px;
+}
+
 nav {
-  width: 100%;
   font-size: 18px;
   text-align: center;
-  margin-top: 2rem;
 }
 
 nav a.router-link-exact-active {
@@ -93,5 +146,4 @@ nav a:first-of-type {
 .primary-button:hover {
   background-color: #e2e2e2;
 }
-
 </style>
