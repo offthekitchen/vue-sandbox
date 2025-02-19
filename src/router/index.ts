@@ -7,17 +7,17 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/vue-sandbox/',
       name: 'home',
       component: HomeView
     },
     {
-      path: '/cities',
+      path: '/vue-sandbox/cities',
       name: 'cities',
       component: Cities
     },
     {
-      path: '/breweries',
+      path: '/vue-sandbox/breweries',
       name: 'breweries',
       component: BreweriesView
     }
