@@ -1,39 +1,46 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
-import { storeToRefs } from "pinia" 
-import { useCities } from "../composables/cities";
+import { onMounted, ref } from "vue"
+import { storeToRefs } from "pinia"
+import { useCities } from "../composables/cities"
 import StatsComponent from "../components/StatsComponent.vue"
-import type { IStatistic } from "../interfaces/statistic";
-import { useCitiesStore } from '../stores/cities'
-import InfoPopup from "../components/InfoPopup.vue";
+import type { IStatistic } from "../interfaces/statistic"
+import { useGeographyStore } from "../stores/geograhy"
+import { usePerformancesStore } from "../stores/performances"
+import InfoPopup from "../components/InfoPopup.vue"
 
-const { performanceCities, getStats } = useCities()
+const { performanceCities, getStats, filterCities } = useCities()
 
-const store = useCitiesStore()
+const geographyStore = useGeographyStore()
+const performancesStore = usePerformancesStore()
 
-const { name } = storeToRefs(store)
+const { name } = storeToRefs(geographyStore)
 
-const showStats = ref(false);
+const { performances } = storeToRefs(performancesStore)
+
+const showStats = ref(false)
 const showCitiesInfo = ref(false)
 
-var btnText: string = 'Show Stats'
+var btnText: string = "Show Stats"
 var cityStats: IStatistic[] = []
 
 var citiesInfoHtml: string =
-  "A list of Colorado cities is retrieved from a Pinia store.  A composable is used to filter the cities to only those in which I have performed, and to get city-related statistics.";
+  "A list of Colorado cities is retrieved from a Pinia store.  A composable is used to filter the cities to only those in which I have performed, and to get city-related statistics."
 
 function toggleStats() {
-    showStats.value = !showStats.value
-    btnText = (btnText == 'Hide Stats' ? 'Show Stats' : 'Hide Stats')
+  showStats.value = !showStats.value
+  btnText = btnText == "Hide Stats" ? "Show Stats" : "Hide Stats"
 }
 
 function toggleInfo(infoContext: string) {
   showCitiesInfo.value = !showCitiesInfo.value
 }
 
-onMounted(() => {
+onMounted(async() => {
+  await performancesStore.fetchPerformances()
+  filterCities(performances.value, "CO")
   cityStats = getStats()
-})  
+})
+
 </script>
 
 <template>
@@ -41,17 +48,20 @@ onMounted(() => {
     <div class="section-header">
       <h1>{{ name }}</h1>
       <img
-          alt="Info icon"
-          title="Info icon"
-          class="logo"
-          src="@/assets/info-icon.svg"
-          width="20"
-          height="20"
-          v-on:click="toggleInfo('cities')"
-        />
-        <InfoPopup v-show="showCitiesInfo" @close="toggleInfo('cities')" title="Cities Info"
-          ><span v-html="citiesInfoHtml"></span>
-        </InfoPopup>
+        alt="Info icon"
+        title="Info icon"
+        class="logo"
+        src="@/assets/info-icon.svg"
+        width="20"
+        height="20"
+        v-on:click="toggleInfo('cities')"
+      />
+      <InfoPopup
+        v-show="showCitiesInfo"
+        @close="toggleInfo('cities')"
+        title="Cities Info"
+        ><span v-html="citiesInfoHtml"></span>
+      </InfoPopup>
     </div>
     <h2>Below is a list of the Colorado cities in which I've performed.</h2>
     <button @click="toggleStats()" class="primary-button">{{ btnText }}</button>
@@ -70,13 +80,16 @@ onMounted(() => {
           <div class="city-state">{{ city.stateCode }}</div>
         </div>
       </div>
-      <StatsComponent v-show="showStats" title="Colorado Stats" :stats="cityStats" />
+      <StatsComponent
+        v-show="showStats"
+        title="Colorado Stats"
+        :stats="cityStats"
+      />
     </section>
   </main>
 </template>
 
 <style scoped>
-
 .cities-section {
   width: 650px;
   display: flex;
@@ -106,13 +119,12 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-  .cities-section{
+  .cities-section {
     flex-direction: column-reverse;
   }
 
   h2 {
     font-size: 18px;
   }
-
 }
 </style>

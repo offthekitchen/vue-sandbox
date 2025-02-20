@@ -6,13 +6,16 @@ import StatsComponent from "../components/StatsComponent.vue"
 import type { IStatistic } from "../interfaces/statistic"
 import { useBreweriesStore } from '../stores/breweries'
 import InfoPopup from "../components/InfoPopup.vue";
+import { usePerformancesStore } from "../stores/performances"
 
-const { breweries, getStats } = useBreweries()
-const store = useBreweriesStore()
+const { breweryPerformances, getStats, getDistinctBreweries } = useBreweries()
+const breweriesStore = useBreweriesStore()
+const performancesStore = usePerformancesStore()
 
 const showStats = ref(false)
 
-const { name, upcoming } = storeToRefs(store)
+const { performances } = storeToRefs(performancesStore)
+const { name } = storeToRefs(breweriesStore)
 
 const showBreweriesInfo = ref(false)
 
@@ -30,9 +33,12 @@ function toggleInfo(infoContext: string) {
   showBreweriesInfo.value = !showBreweriesInfo.value
 }
 
-onMounted(() => {
+onMounted(async() => {
+  await performancesStore.fetchPerformances()
+  getDistinctBreweries(performances.value)
   breweryStats = getStats()
 })
+
 </script>
 
 <template>
@@ -62,7 +68,7 @@ onMounted(() => {
           <h3 class="city-state">State</h3>
         </header>
         <div
-          v-for="(brewery, index) in breweries"
+          v-for="(brewery, index) in breweryPerformances"
           class="brewery-list-row"
           :class="{ 'alt-row': index % 2 === 0 }"
         >

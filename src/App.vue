@@ -54,9 +54,9 @@ function toggleInfo(infoContext: string) {
       </div>
       <div class="navigation">
         <nav>
-          <RouterLink to="/">OVERVIEW</RouterLink>
-          <RouterLink to="/cities">CITIES</RouterLink>
-          <RouterLink to="/breweries">BREWERIES</RouterLink>
+          <RouterLink to="/vue-sandbox/">OVERVIEW</RouterLink>
+          <RouterLink to="/vue-sandbox/cities">CITIES</RouterLink>
+          <RouterLink to="/vue-sandbox/breweries">BREWERIES</RouterLink>
         </nav>
         <img
           alt="Info Icon"

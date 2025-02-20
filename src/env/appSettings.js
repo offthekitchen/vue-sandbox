@@ -1,0 +1,2 @@
+export var APP_ENVIRONMENT = 'LOCAL';
+// export const APP_ENVIRONMENT = 'PRODUCTION';

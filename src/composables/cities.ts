@@ -1,20 +1,19 @@
 import { ref, reactive, onMounted } from "vue"
 import jsonCities from "../data/CITIES.json"
-import jsonPerformances from "../data/PERFORMANCES.json"
 import type { ICity } from "../interfaces/city";
+import type { IPerformance } from "../interfaces/performance";
 import type { IStatistic } from "../interfaces/statistic"
 
 export function useCities() {
   const coloradoCities = reactive<ICity[]>(jsonCities.cities);
-  const performances = reactive(jsonPerformances.performances)
   var performanceCities = reactive<ICity[]>([])
 
-  onMounted(() => filterCities())
+  onMounted(() => {})
 
   // filter list of cities to those performed in
-  function filterCities() {
-    coloradoCities.forEach((city: ICity) => {
-        if(performances.find((performance) => performance.cityId === city.cityId)) 
+  function filterCities(performances: IPerformance[], stateCode: string) {
+    coloradoCities.forEach((city) => {
+        if(performances.find((performance) => performance.stateCode.trim() === city.stateCode.trim() && city.stateCode.trim()== stateCode.trim() && performance.cityName.trim() == city.cityName.trim())) 
             performanceCities.push(city)
      })
   }
@@ -30,5 +29,5 @@ export function useCities() {
 
 
   // expose managed state as return value
-  return { coloradoCities, performanceCities, getStats }
+  return { coloradoCities, performanceCities, getStats, filterCities }
 }

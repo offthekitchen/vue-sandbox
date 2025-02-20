@@ -1,0 +1,254 @@
+{
+  "states": [
+    {
+      "stateCode": "AL",
+      "stateName": "Alabama",
+      "country": "USA"
+    },
+    {
+      "stateCode": "AK",
+      "stateName": "Alaska",
+      "country": "USA"
+    },
+    {
+      "stateCode": "AZ",
+      "stateName": "Arizona",
+      "country": "USA"
+    },
+    {
+      "stateCode": "AR",
+      "stateName": "Arkansas",
+      "country": "USA"
+    },
+    {
+      "stateCode": "CA",
+      "stateName": "California",
+      "country": "USA"
+    },
+    {
+      "stateCode": "CO",
+      "stateName": "Colorado",
+      "country": "USA"
+    },
+    {
+      "stateCode": "CT",
+      "stateName": "Connecticut",
+      "country": "USA"
+    },
+    {
+      "stateCode": "DE",
+      "stateName": "Arkansas",
+      "country": "USA"
+    },
+    {
+      "stateCode": "FL",
+      "stateName": "Florida",
+      "country": "USA"
+    },
+    {
+      "stateCode": "GA",
+      "stateName": "Georgia",
+      "country": "USA"
+    },
+    {
+      "stateCode": "HI",
+      "stateName": "Hawaii",
+      "country": "USA"
+    },
+    {
+      "stateCode": "ID",
+      "stateName": "Idaho",
+      "country": "USA"
+    },
+    {
+      "stateCode": "IL",
+      "stateName": "Illinois",
+      "country": "USA"
+    },
+    {
+      "stateCode": "IN",
+      "stateName": "Indiana",
+      "country": "USA"
+    },
+    {
+      "stateCode": "IA",
+      "stateName": "Iowa",
+      "country": "USA"
+    },
+    {
+      "stateCode": "KS",
+      "stateName": "Kansas",
+      "country": "USA"
+    },
+    {
+      "stateCode": "KY",
+      "stateName": "Kentucky",
+      "country": "USA"
+    },
+    {
+      "stateCode": "LA",
+      "stateName": "Louisiana",
+      "country": "USA"
+    },
+    {
+      "stateCode": "ME",
+      "stateName": "Maine",
+      "country": "USA"
+    },
+    {
+      "stateCode": "MD",
+      "stateName": "Maryland",
+      "country": "USA"
+    },
+    {
+      "stateCode": "MA",
+      "stateName": "Massachusetts",
+      "country": "USA"
+    },
+    {
+      "stateCode": "MI",
+      "stateName": "Michigan",
+      "country": "USA"
+    },
+    {
+      "stateCode": "MN",
+      "stateName": "Minnesota",
+      "country": "USA"
+    },
+    {
+      "stateCode": "MS",
+      "stateName": "Mississippi",
+      "country": "USA"
+    },
+    {
+      "stateCode": "MO",
+      "stateName": "Missouri",
+      "country": "USA"
+    },
+    {
+      "stateCode": "MT",
+      "stateName": "Montana",
+      "country": "USA"
+    },
+    {
+      "stateCode": "NE",
+      "stateName": "Nebraska",
+      "country": "USA"
+    },
+    {
+      "stateCode": "NV",
+      "stateName": "Nevada",
+      "country": "USA"
+    },
+    {
+      "stateCode": "NH",
+      "stateName": "New Hampshire",
+      "country": "USA"
+    },
+    {
+      "stateCode": "NJ",
+      "stateName": "New Jersey",
+      "country": "USA"
+    },
+    {
+      "stateCode": "NM",
+      "stateName": "New Mexico",
+      "country": "USA"
+    },
+    {
+      "stateCode": "NY",
+      "stateName": "New York",
+      "country": "USA"
+    },
+    {
+      "stateCode": "NC",
+      "stateName": "North Carolina",
+      "country": "USA"
+    },
+    {
+      "stateCode": "ND",
+      "stateName": "North Dakota",
+      "country": "USA"
+    },
+    {
+      "stateCode": "OH",
+      "stateName": "Ohio",
+      "country": "USA"
+    },
+    {
+      "stateCode": "OK",
+      "stateName": "Oklahoma",
+      "country": "USA"
+    },
+    {
+      "stateCode": "OR",
+      "stateName": "Oregon",
+      "country": "USA"
+    },
+    {
+      "stateCode": "PA",
+      "stateName": "Pennsylvania",
+      "country": "USA"
+    },
+    {
+      "stateCode": "RI",
+      "stateName": "Rhode Island",
+      "country": "USA"
+    },
+    {
+      "stateCode": "SC",
+      "stateName": "South Carolina",
+      "country": "USA"
+    },
+    {
+      "stateCode": "SD",
+      "stateName": "South Dakota",
+      "country": "USA"
+    },
+    {
+      "stateCode": "TN",
+      "stateName": "Tennessee",
+      "country": "USA"
+    },
+    {
+      "stateCode": "TX",
+      "stateName": "Texas",
+      "country": "USA"
+    },
+    {
+      "stateCode": "UT",
+      "stateName": "Utah",
+      "country": "USA"
+    },
+    {
+      "stateCode": "VT",
+      "stateName": "Vermont",
+      "country": "USA"
+    },
+    {
+      "stateCode": "VA",
+      "stateName": "Virginia",
+      "country": "USA"
+    },
+    {
+      "stateCode": "WA",
+      "stateName": "Washington",
+      "country": "USA"
+    },
+    {
+      "stateCode": "WV",
+      "stateName": "West Virginia",
+      "country": "USA"
+    },
+    {
+      "stateCode": "WI",
+      "stateName": "Wisconsin",
+      "country": "USA"
+    },
+    {
+      "stateCode": "WY",
+      "stateName": "Wyoming",
+      "country": "USA"
+    }
+  ]
+}
