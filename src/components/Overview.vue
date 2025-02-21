@@ -2,7 +2,7 @@
   <div class="overview">
     <p>
       Although I have years of experience as a VueJS developer, all of the code
-      I've worked on is proprietary andf can not be shared. So, I created this
+      I've worked on is proprietary and can not be shared. So, I created this
       simple Vue app as a sandbox to explore concepts and demonstrate a basic
       understabnding of the framework.
     </p>

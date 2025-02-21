@@ -24,7 +24,7 @@ const props = defineProps<Props>()
     <slot></slot>
     <div class="info-footer">
       This info popup is a component that receives its content into a
-      slot and its title as a prop.
+      slot and its title as a prop. It emits an event to the parent to close the popup.
     </div>
   </div>
 </template>
