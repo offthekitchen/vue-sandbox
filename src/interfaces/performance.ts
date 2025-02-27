@@ -4,7 +4,3 @@ export interface IPerformance {
     cityName: string
     stateCode: string
 }
-
-export interface IPerformances {
-    performances: IPerformance[]
-}

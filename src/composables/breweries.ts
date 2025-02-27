@@ -7,9 +7,13 @@ import jsonBreweries from "../data/BREWERIES.json"
 
 export function useBreweries() {
 
+  // JSON file default 
   var breweryPerformances = ref<IBrewery[]>(jsonBreweries.breweries)
 
-  // Build a list of distinct breweries I've performed in
+  /**
+  * Gets a list of distinct breweries from an array of performances
+  * @param {IPerformance[]} performances Array of performances to be filtered
+  */
   function getDistinctBreweries(performances: IPerformance[]) {
     let distinctBreweryPerformances: IBrewery[] = [] 
     performances.forEach(performance => {
@@ -24,7 +28,10 @@ export function useBreweries() {
     }
   }
 
-   // Build and array of distinct US states performed in at breweries
+  /**
+  * Gets a list of distinct states from the list of distinct breweries
+  * @param {IPerformance[]} performances Array of performances to be filtered
+  */
    function getDistinctStates() {
     const seenValues = new Set()
     return breweryPerformances.value.filter(performance => {
@@ -37,6 +44,10 @@ export function useBreweries() {
     })
   }
 
+    /**
+  * Gets the stats for breweries
+  * @returns {IStatistic[]} Array of statistic objects
+  */
     function getStats() {
       let distinctStates = getDistinctStates()
       let stats: IStatistic[] = []

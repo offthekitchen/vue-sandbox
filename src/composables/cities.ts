@@ -5,12 +5,18 @@ import type { IPerformance } from "../interfaces/performance";
 import type { IStatistic } from "../interfaces/statistic"
 
 export function useCities() {
+  // JSON file default 
   const coloradoCities = reactive<ICity[]>(jsonCities.cities);
+  
   var performanceCities = reactive<ICity[]>([])
 
   onMounted(() => {})
 
-  // filter list of cities to those performed in
+  /**
+  * Filters a list of cities
+  * @param {IPerformance[]} performances Array of performances to be filtered
+  * @param {string} stateCode State code of peformances to include
+  */
   function filterCities(performances: IPerformance[], stateCode: string) {
     coloradoCities.forEach((city) => {
         if(performances.find((performance) => performance.stateCode.trim() === city.stateCode.trim() && city.stateCode.trim()== stateCode.trim() && performance.cityName.trim() == city.cityName.trim())) 
@@ -18,6 +24,10 @@ export function useCities() {
      })
   }
 
+  /**
+  * Gets the stats for cities
+  * @returns {IStatistic[]} Array of statistic objects
+  */
   function getStats() {
     let stats: IStatistic[] = []
     stats.push({stat: 'Number of Colorado Cities:', statValue: performanceCities.length.toLocaleString()})
@@ -27,7 +37,5 @@ export function useCities() {
    return stats
   }
 
-
-  // expose managed state as return value
   return { coloradoCities, performanceCities, getStats, filterCities }
 }

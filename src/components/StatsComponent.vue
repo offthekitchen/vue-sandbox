@@ -14,7 +14,7 @@ interface Props {
 
 const props = defineProps<Props>();
 
-const { name, upcoming } = storeToRefs(store);
+const { upcoming } = storeToRefs(store);
 
 const showStatsInfo = ref(false);
 

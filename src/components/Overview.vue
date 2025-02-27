@@ -19,19 +19,10 @@
         <li>Typescript</li>
         <li>Interfaces for data typing</li>
         <li>Vue Router</li>
+        <li>Pinia Store</li>
+        <li>Axios (to call API and get data from mySQL)</li>
         <li>Scoped Styles</li>
         <li>Parent child Component Architecture</li>
-      </ul>
-    </div>
-    <div>
-      As I develop it, I will incorporate the additional VueJS concepts:
-      <ul>
-        <li>Connectivity to an external MySQL database via Axios</li>
-        <li>Vue Router</li>
-        <li>VueX Store</li>
-        <li>Vuetify</li>
-        <li>Scoped slots</li>
-        <li>Component Architecture</li>
       </ul>
     </div>
     <p>

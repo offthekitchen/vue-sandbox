@@ -10,11 +10,6 @@ export const useBreweriesStore = defineStore('breweries',  () => {
 
     var breweries = ref<IBrewery[]>()
 
-    // Fetch the Performances
-    async function setBreweries(newBreweries: IBrewery[]) {
-        breweries.value = newBreweries
-    }
-
-    return { count, name, upcoming, setBreweries }
+     return { count, name, upcoming }
     
   })

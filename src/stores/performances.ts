@@ -6,16 +6,18 @@ import jsonPerformances from "../data/PERFORMANCES.json"
 
 export const usePerformancesStore = defineStore("performances", () => {
 
-  var performanceData: IPerformance[] = []
   var performances = ref<IPerformance[]>(jsonPerformances.performances)
 
-  // Fetch the Performances
+ /**
+  * Makes an asynchronous call to fetch performance data into the store value
+  * @param {boolean} upcoming boolean to only fetch upcoming performances
+  * @returns {boolean}}
+  */
   async function fetchPerformances() {
     try {
       const performancesResponse = await axios.get("http://coloradosessions.com/api/getPerformances/")
-      performanceData = performancesResponse.data.performances
-      if (performanceData.length > 0) {
-        performances.value = performanceData
+      if (performancesResponse.data.performances.length > 0) {
+        performances.value = performancesResponse.data.performances
       }
     }
     catch (error) {
