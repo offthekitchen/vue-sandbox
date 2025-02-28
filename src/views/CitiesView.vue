@@ -6,16 +6,19 @@ import StatsComponent from "../components/StatsComponent.vue"
 import type { IStatistic } from "../interfaces/statistic"
 import { useGeographyStore } from "../stores/geograhy"
 import { usePerformancesStore } from "../stores/performances"
+import { useCitiesStore } from "../stores/cities"
 import InfoPopup from "../components/InfoPopup.vue"
 
-const { performanceCities, getStats, filterCities } = useCities()
+const { getDistinctCities, getStats } = useCities()
 
 const geographyStore = useGeographyStore()
 const performancesStore = usePerformancesStore()
+const citiesStore = useCitiesStore()
 
 const { name } = storeToRefs(geographyStore)
 
-const { performances } = storeToRefs(performancesStore)
+var { coloradoPerformances, upcomingPerformances, upcomingColoradoPerformances } = storeToRefs(performancesStore)
+var { cities, upcomingCities } = storeToRefs(citiesStore)
 
 const showStats = ref(false)
 const showCitiesInfo = ref(false)
@@ -36,8 +39,11 @@ function toggleInfo(infoContext: string) {
 }
 
 onMounted(async() => {
-  await performancesStore.fetchPerformances()
-  filterCities(performances.value, "CO")
+  // Get past cities 
+  cities.value = getDistinctCities(coloradoPerformances.value)
+  // Get upcoming cities
+  upcomingCities.value = getDistinctCities(upcomingPerformances.value)
+  // get city statistics
   cityStats = getStats()
 })
 
@@ -72,7 +78,7 @@ onMounted(async() => {
           <h3 class="city-state">State</h3>
         </header>
         <div
-          v-for="(city, index) in performanceCities"
+          v-for="(city, index) in cities"
           class="city-list-row"
           :class="{ 'alt-row': index % 2 === 0 }"
         >

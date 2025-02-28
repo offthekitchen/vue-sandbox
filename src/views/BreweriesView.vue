@@ -8,14 +8,14 @@ import { useBreweriesStore } from '../stores/breweries'
 import InfoPopup from "../components/InfoPopup.vue";
 import { usePerformancesStore } from "../stores/performances"
 
-const { breweryPerformances, getStats, getDistinctBreweries } = useBreweries()
+const { getStats, getDistinctBreweries } = useBreweries()
 const breweriesStore = useBreweriesStore()
 const performancesStore = usePerformancesStore()
 
 const showStats = ref(false)
 
-const { performances } = storeToRefs(performancesStore)
-const { name } = storeToRefs(breweriesStore)
+const { performances, upcomingPerformances } = storeToRefs(performancesStore)
+const { name, breweries, upcomingBreweries } = storeToRefs(breweriesStore)
 
 const showBreweriesInfo = ref(false)
 
@@ -34,8 +34,11 @@ function toggleInfo(infoContext: string) {
 }
 
 onMounted(async() => {
-  await performancesStore.fetchPerformances()
-  getDistinctBreweries(performances.value)
+  // Get past breweries 
+  breweries.value = getDistinctBreweries(performances.value)
+  // Get upcoming breweries
+  upcomingBreweries.value = getDistinctBreweries(upcomingPerformances.value)
+  // Get brewery stats
   breweryStats = getStats()
 })
 
@@ -68,7 +71,7 @@ onMounted(async() => {
           <h3 class="city-state">State</h3>
         </header>
         <div
-          v-for="(brewery, index) in breweryPerformances"
+          v-for="(brewery, index) in breweries"
           class="brewery-list-row"
           :class="{ 'alt-row': index % 2 === 0 }"
         >

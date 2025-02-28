@@ -2,10 +2,11 @@
 import { ref } from "vue";
 import type { IStatistic } from "../interfaces/statistic";
 import { useBreweriesStore } from "../stores/breweries";
+import { usePerformancesStore } from "../stores/performances";
 import InfoPopup from "./InfoPopup.vue";
 import { storeToRefs } from "pinia";
 
-const store = useBreweriesStore();
+const performancesStoreStore = usePerformancesStore();
 
 interface Props {
   title: String;
@@ -14,7 +15,7 @@ interface Props {
 
 const props = defineProps<Props>();
 
-const { upcoming } = storeToRefs(store);
+const { upcomingPerformances } = storeToRefs(performancesStoreStore);
 
 const showStatsInfo = ref(false);
 
@@ -49,10 +50,6 @@ function toggleInfo(infoContext: string) {
     <div v-for="stat in props.stats" class="stats-row">
       <div class="stats-row-header">{{ stat.stat }}</div>
       <div class="stat">{{ stat.statValue }}</div>
-    </div>
-    <div class="stats-row">
-      <div class="stats-row-header">Upcoming shows</div>
-      <div class="stat">{{ upcoming }}</div>
     </div>
   </div>
 </template>
