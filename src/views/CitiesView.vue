@@ -7,15 +7,18 @@ import type { IStatistic } from "../interfaces/statistic"
 import { useGeographyStore } from "../stores/geograhy"
 import { usePerformancesStore } from "../stores/performances"
 import { useCitiesStore } from "../stores/cities"
+import { useAppStore } from "../stores/app"
 import InfoPopup from "../components/InfoPopup.vue"
 
 const { getDistinctCities, getStats } = useCities()
 
+const appStore = useAppStore()
 const geographyStore = useGeographyStore()
 const performancesStore = usePerformancesStore()
 const citiesStore = useCitiesStore()
 
 const { name } = storeToRefs(geographyStore)
+const { loading } = storeToRefs(appStore)
 
 var { coloradoPerformances, upcomingPerformances, upcomingColoradoPerformances } = storeToRefs(performancesStore)
 var { cities, upcomingCities } = storeToRefs(citiesStore)
@@ -39,12 +42,14 @@ function toggleInfo(infoContext: string) {
 }
 
 onMounted(async() => {
+  loading.value = true
   // Get past cities 
   cities.value = getDistinctCities(coloradoPerformances.value)
   // Get upcoming cities
   upcomingCities.value = getDistinctCities(upcomingPerformances.value)
   // get city statistics
   cityStats = getStats()
+  loading.value = false
 })
 
 </script>

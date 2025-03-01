@@ -3,6 +3,13 @@ import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 import AppFooter from "./components/Footer.vue";
 import InfoPopup from "./components/InfoPopup.vue";
+import { storeToRefs } from "pinia"
+import { useAppStore } from "./stores/app"
+
+
+const store = useAppStore()
+
+const { loading } = storeToRefs(store)
 
 var appInfoHtml: string =
   "This Vue application is written in TypeScript using the composition API and composables. It incorporates the following:";
@@ -25,6 +32,9 @@ function toggleInfo(infoContext: string) {
 }
 </script>
 <template>
+  <div v-show="loading" class="spinner-background">
+    <VueSpinner size="90" color="hsla(160, 100%, 37%, 0.2)" />
+  </div>
   <div class="page-wrapper">
     <header>
       <div class="title-area">
@@ -83,6 +93,23 @@ function toggleInfo(infoContext: string) {
 </template>
 
 <style>
+.spinner-background {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  opacity: .4;
+}
+
+.vue-spinner {
+  align-self: center;
+}
+
 .page-wrapper {
   min-height: 800px;
   max-width: 1200px;

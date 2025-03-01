@@ -7,13 +7,17 @@ import type { IStatistic } from "../interfaces/statistic"
 import { useBreweriesStore } from '../stores/breweries'
 import InfoPopup from "../components/InfoPopup.vue";
 import { usePerformancesStore } from "../stores/performances"
+import { useAppStore } from "../stores/app"
 
 const { getStats, getDistinctBreweries } = useBreweries()
+
+const appStore = useAppStore()
 const breweriesStore = useBreweriesStore()
 const performancesStore = usePerformancesStore()
 
 const showStats = ref(false)
 
+const { loading } = storeToRefs(appStore)
 const { performances, upcomingPerformances } = storeToRefs(performancesStore)
 const { name, breweries, upcomingBreweries } = storeToRefs(breweriesStore)
 
@@ -34,12 +38,14 @@ function toggleInfo(infoContext: string) {
 }
 
 onMounted(async() => {
+  loading.value = true
   // Get past breweries 
   breweries.value = getDistinctBreweries(performances.value)
   // Get upcoming breweries
   upcomingBreweries.value = getDistinctBreweries(upcomingPerformances.value)
   // Get brewery stats
   breweryStats = getStats()
+  loading.value = false
 })
 
 </script>
