@@ -4,11 +4,10 @@ import jsonCities from "../data/CITIES.json";
 import type { ICity } from "../interfaces/city";
 import type { IPerformance } from "../interfaces/performance";
 import type { IStatistic } from "../interfaces/statistic";
-
 import { useCitiesStore } from "../stores/cities";
 
 export function useCities() {
-  // JSON file default
+  // JSON file data
   const coloradoCities = reactive<ICity[]>(jsonCities.cities);
 
   /**

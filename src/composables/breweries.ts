@@ -4,7 +4,6 @@ import type { IBrewery } from "../interfaces/brewery"
 import type { IPerformance } from "../interfaces/performance";
 import type { IStatistic } from "../interfaces/statistic"
 import { useBreweriesStore } from "../stores/breweries"
-import jsonBreweries from "../data/BREWERIES.json"
 
 export function useBreweries() {
 
@@ -28,20 +27,14 @@ export function useBreweries() {
   }
 
   /**
-  * Gets a list of distinct states from the list of distinct breweries
+  * Gets a list of distinct state codes from the list of distinct breweries
   * @param {IPerformance[]} performances Array of performances to be filtered
-  * @returns { IBrewery[]}
+  * @returns { string[]}
   */
    function getDistinctStates() {
-    const seenValues = new Set()
-    return breweryPerformances.value.filter(performance => {
-      const stateCode = performance['stateCode']
-      if (seenValues.has(stateCode)) {
-        return false
-      }
-      seenValues.add(stateCode)
-      return true
-    })
+    const store = useBreweriesStore()
+    const { breweries } = storeToRefs(store)
+   return [... new Set(breweries.value.map(brewery => brewery.stateCode))]
   }
 
     /**
@@ -50,7 +43,7 @@ export function useBreweries() {
   */
     function getStats() {
       const store = useBreweriesStore()
-      const { name, breweries, upcomingNewBreweries } = storeToRefs(store)
+      const { breweries, upcomingNewBreweries } = storeToRefs(store)
       let distinctStates = getDistinctStates()
       let stats: IStatistic[] = []
       stats.push({stat: 'Breweries Performed in:', statValue: breweries.value.length.toLocaleString()})

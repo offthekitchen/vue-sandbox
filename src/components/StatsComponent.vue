@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import type { IStatistic } from "../interfaces/statistic";
-import { useBreweriesStore } from "../stores/breweries";
 import { usePerformancesStore } from "../stores/performances";
 import InfoPopup from "./InfoPopup.vue";
 import { storeToRefs } from "pinia";
