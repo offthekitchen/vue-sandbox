@@ -16,9 +16,7 @@ onMounted(async() => {
   loading.value = true
   // Get past performances
   await performancesStore.fetchPerformances(false).then(response => (performances.value = response))
-  performances.value.forEach(perf => {
-          console.log(perf.cityName + ' - ' + perf.stateCode + '\n')
-        })
+
   // Get upcoming performances
   await performancesStore.fetchPerformances(true).then(response => (upcomingPerformances.value = response))
   loading.value = false

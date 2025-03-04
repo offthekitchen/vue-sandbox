@@ -4,7 +4,6 @@ import { storeToRefs } from "pinia"
 import { useCities } from "../composables/cities"
 import StatsComponent from "../components/StatsComponent.vue"
 import type { IStatistic } from "../interfaces/statistic"
-import { useGeographyStore } from "../stores/geograhy"
 import { usePerformancesStore } from "../stores/performances"
 import { useCitiesStore } from "../stores/cities"
 import { useAppStore } from "../stores/app"
@@ -13,15 +12,13 @@ import InfoPopup from "../components/InfoPopup.vue"
 const { getDistinctCities, getStats } = useCities()
 
 const appStore = useAppStore()
-const geographyStore = useGeographyStore()
 const performancesStore = usePerformancesStore()
 const citiesStore = useCitiesStore()
 
-const { name } = storeToRefs(geographyStore)
 const { loading } = storeToRefs(appStore)
 
-var { coloradoPerformances, upcomingPerformances, upcomingColoradoPerformances } = storeToRefs(performancesStore)
-var { cities, upcomingCities } = storeToRefs(citiesStore)
+var { coloradoPerformances, upcomingPerformances } = storeToRefs(performancesStore)
+var { name, cities, upcomingCities } = storeToRefs(citiesStore)
 
 const showStats = ref(false)
 const showCitiesInfo = ref(false)

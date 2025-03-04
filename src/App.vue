@@ -12,11 +12,11 @@ const store = useAppStore()
 const { loading } = storeToRefs(store)
 
 var appInfoHtml: string =
-  "This Vue application is written in TypeScript using the composition API and composables. It incorporates the following:";
-appInfoHtml += "<ul><li>Vue Router</li><li>Pinia Store</li><li>Slots</li></ul>";
+  'This Vue application is written in TypeScript using the composition API and composables. It incorporates the following:'
+appInfoHtml += '<ul><li>Vue Router</li><li>Pinia Store</li><li>Slots</li><li>Axios</li></ul>'
 var navInfoHtml: string =
-  "The navigation uses the Vue Router to change out the content fo each area.";
-
+  'The navigation uses the Vue Router to change out the content fo each area.  The home page fetches the performance data into the store.'
+navInfoHtml += 'Navigation guards on the other routes check it the data is loaded and if not, redirect to the home.'
 const showAppInfo = ref(false);
 const showNavInfo = ref(false);
 

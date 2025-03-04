@@ -14,16 +14,22 @@
       >
       project. It is written in Typescript utilizing Interfaces and classes. It
       currently employs the following concepts:
-      <ul>
-        <li>Composition API & Composables</li>
-        <li>Typescript</li>
-        <li>Interfaces for data typing</li>
-        <li>Vue Router</li>
-        <li>Pinia Store</li>
-        <li>Axios (to call API and get data from mySQL)</li>
-        <li>Scoped Styles</li>
-        <li>Parent child Component Architecture</li>
-      </ul>
+      <div class="concepts">
+        <ul>
+          <li>Composition API & Composables</li>
+          <li>Typescript</li>
+          <li>Interfaces for data typing</li>
+          <li>Vue Router</li>
+          <li>Pinia Store</li>
+        </ul>
+        <ul>
+          <li>Axios (to call API and get data from mySQL)</li>
+          <li>Navigation guards</li>
+          <li>Vue3 Spinners</li>
+          <li>Scoped Styles</li>
+          <li>Parent child Component Architecture</li>
+        </ul>
+      </div>
     </div>
     <p>
       You can click the
@@ -47,5 +53,10 @@
 
 .icon {
   margin-bottom: -5px;
+}
+
+.concepts {
+  display: flex;
+  flex-direction: row;
 }
 </style>
