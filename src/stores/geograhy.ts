@@ -6,10 +6,6 @@ import jsonCities from "../data/CITIES.json"
 import jsonStates from "../data/STATES.json"
 
 export const useGeographyStore = defineStore('geography',  () => {
-    const upcoming = ref(2)
-    const count = ref(0)
-
-    const name = ref('Cities')
 
     // JSON file Data
     const coloradoCities = ref<ICity[]>(jsonCities.cities)
@@ -18,6 +14,6 @@ export const useGeographyStore = defineStore('geography',  () => {
     // Sort the cities by name
     coloradoCities.value.sort((a, b) =>  a.cityName.localeCompare(b.cityName))
 
-    return { count, name, upcoming, coloradoCities, usStates }
+    return { coloradoCities, usStates }
     
   })

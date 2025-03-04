@@ -13,6 +13,7 @@ export function useBreweries() {
   /**
   * Gets a list of distinct breweries from an array of performances
   * @param {IPerformance[]} performances Array of performances to be filtered
+  * @returns {IBrewery[]}
   */
   function getDistinctBreweries(performances: IPerformance[]) : IBrewery[] {
     let distinctBreweryPerformances: IBrewery[] = [] 
